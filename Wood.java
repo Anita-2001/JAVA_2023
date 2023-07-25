@@ -1,6 +1,6 @@
 class Wood{
 	int cost;
-	String material;
+	String material;  //static
 	float length;
 	String color;
 	double density;
@@ -32,7 +32,8 @@ class Wood{
 	}
 	Wood(int cost,String material,float length,String color)
 	{
-		
+		this(cost,material,length,color);
+
 	   	System.out.println("invoking int,string,float,string in wood constr");
 		this.color=color;
 
@@ -40,8 +41,10 @@ class Wood{
 	Wood(int cost,String material,float length,String color,double density)
     {
 		this(cost,material,length,color);
+
 		System.out.println("invoking int ,string,float,string,double  in wood constr");
-		this.density=density;
+				this.density=density;
+
 
 	}	
 	

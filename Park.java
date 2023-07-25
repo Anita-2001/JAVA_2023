@@ -10,7 +10,8 @@ class Park{
 	String typeoftree;
 	
 	Park(int benches)
-	{
+	{    
+	    this();
 		System.out.println("invoking int in park constructor");
 		this.benches=benches;
 	}
