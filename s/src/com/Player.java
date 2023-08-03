@@ -1,5 +1,7 @@
 package com;
 
+import com.ubdt.app.Building;
+
 public class Player 
 {
 	public Building building;

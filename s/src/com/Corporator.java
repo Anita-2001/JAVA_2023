@@ -1,5 +1,7 @@
 package com;
 
+import com.ubdt.app.Building;
+
 public class Corporator {
 	Building[] buildings;
 	public String name;

@@ -1,13 +1,13 @@
 package com.ubdt;
 
 import com.Area;
-import com.Building;
 import com.Corporator;
 import com.Floor;
 import com.HomeTown;
 import com.Lift;
 import com.Player;
 import com.Sport;
+import com.ubdt.app.Building;
 
 public class SportMain {
 
