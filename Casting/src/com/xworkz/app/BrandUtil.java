@@ -5,8 +5,8 @@ import com.xworkz.app.Duplicatebrand.DuplicateBrand;
 public class BrandUtil extends Brand {
 
 		public static void run(Brand brand) {
-
-			System.out.println(brand.name);
+			String s=brand.name;
+			System.out.println(s);
 			brand.shop();
 
 			if (brand instanceof LocalBrand) 
