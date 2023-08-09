@@ -25,7 +25,7 @@ public class Specs
 	public void vision(float cost,String color)
 	{
 		System.out.println("invoking float,string in vision");
-		System.out.println("cost" +cost);
+		System.out.println("cost" +67);
 		System.out.println("color" +color);
 	}
 	

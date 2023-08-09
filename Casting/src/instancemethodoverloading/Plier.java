@@ -9,8 +9,8 @@ public class Plier {
 	    
 	    public void cut()
 	    {
-	    	System.out.println("invoking defalt serve method");
-	    	cut(color,brand);
+	    	System.out.println("invoking defalt cut method");
+	    	cut("green","hp");
 	    }
 	    public void cut(String color)
 	    {
@@ -32,7 +32,7 @@ public class Plier {
 	    	
 	    	
 	    	
-	    	System.out.println("invoking int,float,int  in serve");
+	    	System.out.println("invoking int,float,int  cut ");
 	    	System.out.println("color:"+color);
 	    	System.out.println("brand:"+brand);
 	    	System.out.println("cost:"+cost);
